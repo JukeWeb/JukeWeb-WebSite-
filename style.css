@@ -43,3 +43,20 @@ a:active {
     color: DarkGray;
     text-decoration: none;
 }
+
+
+.left {
+    position:static;
+    left:0; top:92px; bottom: 10;
+    width: 124px;
+}
+.main {
+    color: #000000;
+    position:absolute;
+    left:500px; top:200px; right:0; bottom:0;
+}
+.header {
+    position:absolute;
+    left:500px; top:20px;
+    font-size: 50px;
+}
