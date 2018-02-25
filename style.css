@@ -1,0 +1,45 @@
+header {
+	font-size:40px;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	height: 1000px;
+	background: linear-gradient(to bottom right, #00ffff, #2888BF);      /* W3C */
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;	
+	
+}
+
+
+a:link {
+    color: DarkSlateGray;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border:1px;
+    border-color: black
+}
+
+/* visited link */
+a:visited {
+    color: DarkSlateGray;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border:1px;
+    border-color: black
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: DarkGray;
+    text-decoration: none;
+}
